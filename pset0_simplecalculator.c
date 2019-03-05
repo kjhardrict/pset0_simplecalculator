@@ -154,6 +154,9 @@ int main(int argc, char *argv[]) {
 		case 'X':
 			printf("%.3lf", first_num + second_num);
 			break;
+			
+		default: 
+			printf("Error! Please enter a correct operator.");
 	}
 	
 	return 0;
